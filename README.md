@@ -31,7 +31,7 @@ npm install weather-forecaster
   
 > Since this package's structure is asynchronous you have to use "async-await" or ".then()" structures when using the module.
 
-Example usages with this structures are given below.
+Example usages with these structures are given below.
 
 - **Getting all the data with IIFE:**
 ```js
