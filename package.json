@@ -1,0 +1,33 @@
+{
+  "name": "weather-forecaster",
+  "version": "1.0.0",
+  "description": "A NPM module that will allow you to easily access the current and detailed weather conditions of any city in any country you prefer!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/berkayfazlioglu/weather-forecaster.git"
+  },
+  "keywords": [
+    "en",
+    "tr",
+    "current",
+    "detailed",
+    "city",
+    "country",
+    "weather",
+    "condition",
+    "forecast",
+    "weather-condition",
+    "weather-forecast",
+    "weather condition",
+    "weather forecast"
+  ],
+  "author": "berkayfazlioglu",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
