@@ -3,6 +3,7 @@
 > **weather-forecaster** is a NPM module that will allow you to easily access the current and detailed weather conditions of any city in any country that you prefer!
 
 [![package-image]][package-url]  [![install-image]][install-url]
+
 [![NPM][npm-image]][npm-url]
 
 ## Installation
