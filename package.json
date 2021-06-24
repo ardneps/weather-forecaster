@@ -1,6 +1,6 @@
 {
   "name": "weather-forecaster",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NPM module that will allow you to easily access the current and detailed weather conditions of any city in any country you prefer!",
   "main": "index.js",
   "scripts": {
