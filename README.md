@@ -143,7 +143,7 @@ myWeatherData("new york");
 
 > Licensed under The MIT License (MIT). 
 > For the full copyright and license information,
-> please view the [LICENSE](https://github.com/berkayfazlioglu/weather-forecaster/blob/master/LICENSE) file.
+> please view the [LICENSE](https://github.com/ardneps/weather-forecaster/blob/master/LICENSE) file.
 
 [package-url]: http://npmjs.org/package/weather-forecaster
 [package-image]: https://badge.fury.io/js/weather-forecaster.svg
