@@ -1,6 +1,6 @@
 {
   "name": "weather-forecaster",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A package that will help you obtain weather information",
   "main": "index.js",
   "scripts": {

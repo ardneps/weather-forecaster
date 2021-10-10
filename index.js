@@ -1,11 +1,8 @@
 const fetch = require("node-fetch");
-const { convertToEnglish, convertToFahrenheit } = require("./util");
-String.prototype.convertToEnglish = convertToEnglish;
-String.prototype.convertToFahrenheit = convertToFahrenheit;
 
 const weather = async (answer, options = { date_format: "numeric" }) => {
 
-    const query = encodeURI(answer.convertToEnglish());
+    const query = encodeURI(convertToEnglish(answer));
 
     const location_url = `https://www.metaweather.com/api/location/search/?query=${query}`;
 
@@ -76,6 +73,23 @@ const weather = async (answer, options = { date_format: "numeric" }) => {
         temp: `${temp} °C`,
         visibility_range: `${visibility_range} km`,
     };
+};
+
+function convertToEnglish(text) {
+    return text
+        .replace("Ğ", "g")
+        .replace("Ü", "u")
+        .replace("Ş", "s")
+        .replace("I", "i")
+        .replace("İ", "i")
+        .replace("Ö", "o")
+        .replace("Ç", "c")
+        .replace("ğ", "g")
+        .replace("ü", "u")
+        .replace("ş", "s")
+        .replace("ı", "i")
+        .replace("ö", "o")
+        .replace("ç", "c");
 };
 
 module.exports = weather;
