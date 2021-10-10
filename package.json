@@ -1,7 +1,7 @@
 {
   "name": "weather-forecaster",
-  "version": "2.0.0",
-  "description": "A NPM module that will allow you to easily access the current and detailed weather conditions of any city in any country you prefer!",
+  "version": "2.0.1",
+  "description": "A package that will help you obtain weather information",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,6 +28,6 @@
   "author": "ardneps",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.5"
   }
 }
